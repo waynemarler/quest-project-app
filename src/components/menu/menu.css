@@ -1,0 +1,29 @@
+.menu-container {
+    display: flex;
+    justify-content: center; /* Horizontally center contents */
+    align-items: center;     /* Vertically center contents */
+    background-color: #5FB7F4;
+    padding: 20px;           /* Provides some spacing around the container */
+    flex-wrap: wrap;         /* Allows the buttons to wrap to the next line if there's not enough space */
+}
+
+.menu-button {
+    background-color: #5FB7F4;
+    border: 3px solid white;
+    border-radius: 6%;
+    color: white;
+    padding: 14px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 12px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    text-transform: uppercase;
+}
+.menu-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #5FB7F4;
+    font-weight: bold;
+}
