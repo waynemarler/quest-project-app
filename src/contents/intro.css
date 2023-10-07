@@ -1,5 +1,64 @@
-.intro
+.intro-container
 {
+    background-color: #5FB7F4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1); /* A light shadow for some depth */
+    display: flex;             /* This makes it a flex container */
+    justify-content: space-between; /* This spreads the child items apart */
+    align-items: center;      /* Vertically centers the child items */
+    gap: 20px;  
 
+}
+.intro-container h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    color: white;
+}
 
+.text-section {
+    flex: 1;                  /* Takes up equal space as the image section */
+    padding: 10px;            /* Optional padding for aesthetics */
+}
+
+.image-section {
+    flex: 1;                  /* Takes up equal space as the text section */
+    display: flex;            /* For centering the image */
+    justify-content: center;  /* Horizontally centers the image */
+    align-items: center;      /* Vertically centers the image */
+}
+
+.mobile-image {
+    max-width: 100%;          /* Ensures the image doesn't overflow its container */
+    height: auto;             /* Maintains the image's aspect ratio */
+}
+
+.quest-intro {
+    background-color: #5FB7F4;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 20px auto; /* Centers the div if in a flex container */
+    color: white;
+    font-family: Arial, sans-serif; /* You can use your preferred font */
+}
+
+.quest-intro h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+.quest-intro p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* If you'd like to add any hover effects on links or other interactive elements */
+.quest-intro a:hover {
+    text-decoration: underline;
 }
