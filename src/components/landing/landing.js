@@ -8,7 +8,7 @@ function Landing({ onEnter }){
   return (
     <section className="landing-section">
       <img src={logo} className="app-logo-landing" alt="logo" />
-      <h2 className="landing-subtitle">Innovative Gaming Solutions</h2>
+      <h2 className="landing-subtitle">Innovative Betting Solutions</h2>
       <button className="enter-button" onClick={onEnter}>Enter</button>
 
     </section>

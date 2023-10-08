@@ -10,9 +10,9 @@
   }
 
   .app-logo-header {
-    height: 20vmin;
+    height: 17vmin;
     pointer-events: none;
-    border: 16px solid white;
+    border: 10px solid white;
     border-radius: 45px;
   }
 
