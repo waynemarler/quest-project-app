@@ -37,9 +37,25 @@
     cursor: pointer;
     transition-duration: 0.4s;
     text-transform: uppercase; /* Makes text uppercase */
+    
 }
 
 .enter-button:hover {
     background-color: white;
     color: #5FB7F4;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo-landing{
+    animation: App-logo-spin 4s linear forwards;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
